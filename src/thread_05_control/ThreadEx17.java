@@ -13,7 +13,7 @@ public class ThreadEx17 {
         new Thread(new Customer_17(table, "donut"), "CUST1").start();
         new Thread(new Customer_17(table, "burger"), "CUST2").start();
         Thread.sleep(2000);
-        System.exit(0);
+        System.exit(0);//
     }
 }
 
